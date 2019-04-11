@@ -1,0 +1,61 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    /* width: 100%; */
+}
+.head{
+    background-image: url(images/head.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    
+}
+ul>li>a:hover{
+    border-bottom: 1px solid #ffffff;
+}
+
+h1{
+    line-height: 45px; 
+    font-weight: 600;
+}
+
+.time{
+    line-height: 10px; 
+    font-weight: 400; 
+    font-size: 13px;
+}
+
+.info{
+    font-size:15px;
+}
+
+.getapp{
+    line-height:10px;
+}
+
+.btn-primary{
+    background-color: #4688F9 !important;
+    border:1px solid #ffffff !important;
+}
+.list-item{
+    color:#7F85A5;
+   
+}
+ul{
+    list-style: none;
+
+}
+.list li::before{
+    content: " \2022";
+    color: #4688F9;
+    font-weight: bold;
+    display: inline-block;
+    width: 1.5em;
+    margin-left: -2em;
+}
+h6{
+    font-weight: 700;
+}
+
+.foot{
+    float: right;
+}
